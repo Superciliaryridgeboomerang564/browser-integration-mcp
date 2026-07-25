@@ -1,0 +1,22 @@
+{
+  "name": "browser-integration",
+  "version": "5.0.1",
+  "description": "Browser-Integration MCP for Claude Desktop: a shared agent browser behind a token-guarded local broker (attach mode). Entry point is i18n.js.",
+  "main": "i18n.js",
+  "scripts": {
+    "start": "node i18n.js"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "browser",
+    "automation",
+    "cdp"
+  ],
+  "author": "viRomulus",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "chrome-devtools-mcp": "^1.4.0"
+  }
+}

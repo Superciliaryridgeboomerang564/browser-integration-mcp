@@ -1,0 +1,35 @@
+{
+  "manifest_version": "0.3",
+  "name": "browser-integration",
+  "display_name": "Browser-Integration",
+  "version": "5.0.1",
+  "description": "Browser automation via the Chrome DevTools Protocol. A shared agent browser runs behind a local auth broker: Chrome on a private pipe (no debug TCP port), the broker exposes a token-guarded loopback WebSocket with peer-process verification. Multiple chats/apps attach to the ONE browser and take turns (single-active handoff; the browser survives, no reclaim/kill). Anti-detection via rebrowser-patched puppeteer. Russian/English tool titles. Telemetry disabled. The agent profile's own extensions load and run.",
+  "author": {
+    "name": "viRomulus"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "i18n.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/i18n.js"
+      ]
+    }
+  },
+  "keywords": [
+    "browser",
+    "automation",
+    "integration",
+    "cdp"
+  ],
+  "license": "MIT",
+  "compatibility": {
+    "platforms": [
+      "win32"
+    ],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  }
+}

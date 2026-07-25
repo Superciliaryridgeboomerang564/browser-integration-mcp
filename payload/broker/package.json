@@ -1,0 +1,19 @@
+{
+  "name": "browser-integration-attach-broker",
+  "version": "5.0.1",
+  "description": "Authenticating CDP broker: keeps Chrome on a private pipe, exposes a token-guarded loopback WebSocket for chrome-devtools-mcp attach mode and a URL-open shim.",
+  "type": "commonjs",
+  "private": true,
+  "bin": {
+    "bi-broker": "src/broker.js",
+    "bi-open": "tools/bi-open.js"
+  },
+  "scripts": {
+    "start": "node src/broker.js",
+    "open": "node tools/bi-open.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "MIT"
+}
